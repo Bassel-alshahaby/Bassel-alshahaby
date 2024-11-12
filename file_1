@@ -1,1 +1,40 @@
+#practice 01
+#Q1: Create a variable named age and assign your age to it.
+age =35
+#Q2: Create two variables, city and country, and assign your city and country to them.
+city = 'aleppo'
+country = 'syria'
+#Q3: Combine city and country into a single string location and print it.
+location = f"{city}, {country}"
+print(location)
+aleppo, syria
+#Q4: Change the value of age to a different number and print it.
+age = 40
+print(age)
+#Q5: Create a variable height and assign a float value representing your height in meters.
+height= 1.9
+#Q6: Check and print the data type of the height variable using the type() function.
+type(height)
 
+#Q7: Assign the value True to a variable named is_student and print the variable.
+is_student=True
+print(is_student)
+
+## Q8: Create a variable `name` with your first name using double quotes and then another variable `surname` with your last name using single quotes. Combine them into `full_name`.
+
+name = 'Bassel'
+usrname="Alshahaby"
+full_name=f"{name} {usrname}"
+print(full_name)
+
+
+#Q9: Create two variables x and y and assign them integer values. Swap their values without using a third variable.
+x= 100
+y=10
+x=100/2
+y=y*5
+x==y
+
+#Q10: Write a statement to update the age variable by adding 5 to it.
+age+=5
+print(age)
